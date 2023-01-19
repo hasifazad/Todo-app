@@ -1,0 +1,81 @@
+.title {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-addfield {
+    padding: 5px;
+    border: none;
+    background-color: antiquewhite;
+    width: 250px;
+    border-radius: 5px;
+    height: 25px;
+    outline: none;
+}
+
+.todo-container {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #2C5364;
+    width: fit-content;
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    height: 400px;
+}
+
+.input-field {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+    height: 25px;
+    width: 190px;
+    outline: none;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    padding: 5px;
+    height: 35px;
+}
+
+/* scrollbar style*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
